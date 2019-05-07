@@ -1,0 +1,44 @@
+.header-wrap{
+    height: 88px;
+    background: #ffffff;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 3px 10px 0px 
+		rgba(0, 0, 0, 0.1);
+    .header-button{
+      color: #29B751;
+      cursor: pointer;
+      transition: all 0.2s linear;
+      &.on{
+        transform: rotate(90deg);
+      }
+    }
+    .header-nav{
+      span{
+        a{
+          font-size: 14px;
+          color: #666;
+          text-decoration: none;
+          padding: 0 20px;
+          position: relative;
+          &:hover{
+            color: #29B751;
+          }
+          &:not(:last-child)::after{
+            content: '';
+            width: 1px;
+            height: 12px;
+            position: absolute;
+            right: 0;
+            top: 5px;
+            background-color: #dedede;
+          }
+        }
+        .el-button{
+          padding: 12px 20px;
+        }
+      }
+    }
+}

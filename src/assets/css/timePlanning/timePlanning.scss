@@ -1,0 +1,56 @@
+.timePplanning-wrap{
+  width: 100%;
+  .timePplanning-wrap-account{
+		width: 100%;
+		min-height: 500px;
+		.timePplanning-head{
+			display: flex;
+			justify-content: space-between;
+		}
+		.timePplanning-content{
+			.timePplanning-content-form{
+        padding: 15px 0;
+			}
+			.timePplanning-content-table{
+        width: 100%;
+        .table-head{
+          width: 100%;
+          height: 42px;
+          line-height: 42px;
+          background-color: #c5e9d0;
+          text-align: center;
+          font-weight: bold;
+          font-size: 16px;
+        }
+        .el-table__expanded-cell{
+          padding-top: 0;
+          padding-bottom: 0;
+          padding-right: 0;
+          padding-left: 48px;
+        }
+        .el-table{
+          thead tr th{
+            color: #fff;
+            background-color: #595F66;
+            &:first-child{
+              background-color: #494F57;
+            }
+            &:last-child{
+              background-color: #71767C;
+            }
+          }
+          tbody .el-table__row.expanded td{
+            color: #333;
+            background-color: #D6D6D6;
+            &:first-child{
+              background-color: #CACACA;
+            }
+            &:last-child{
+              background-color: #EFEFEF;
+            }
+          }
+        }
+			}
+		}
+	}
+}

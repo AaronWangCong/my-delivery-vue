@@ -1,0 +1,63 @@
+.timeset-wrap{
+	width: 100%;
+	.timeset-wrap-account{
+		width: 100%;
+		min-height: 500px;
+		.timeset-head{
+			display: flex;
+			justify-content: space-between;
+			.add-btn{
+				height: 32px;
+				border-radius: 3px;
+				background: rgba(255, 255, 255, 0.1);
+				border: solid 1px #ffffff;
+			}
+		}
+		.timeset-form{
+			padding: 15px;
+		}
+		.timeset-content{
+			padding-top: 15px !important;
+			.timeset-content-form{
+				padding: 15px 0;
+			}
+			.timeset-content-table{
+				width: 100%;
+			}
+		}
+  }
+  .setWorkTimeDialog-form{
+		.company-name{
+			.el-form-item__content{
+				.el-select{
+					width: 100%;
+					.el-input{
+						width: 100%;
+					}
+				}
+			}
+		}
+    .time-zone{
+      .el-form-item__content{
+        .el-select .el-input{
+          width: 270px;
+        }
+        .green{
+					padding-left: 10px;
+					cursor: pointer;
+        }
+      }
+		}
+		.work-time{
+			.el-form-item__content .el-checkbox-group .el-checkbox{
+				margin-right: 0;
+				.el-checkbox__label .el-input{
+					width:120px;
+				}
+				.el-date-editor{
+					margin-left: 20px;
+				}
+			}
+		}
+  }
+}

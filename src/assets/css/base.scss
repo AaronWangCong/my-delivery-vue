@@ -1,0 +1,33 @@
+$blue :            #2387f7;
+$red :             #E63A29;
+$fontColor :       #333333;
+$baseBgColor :      #f3f3f3;
+$border :          1px solid #EFEFEF;
+
+// 类
+@for $i from 1 through 5 {
+  .flex#{$i} {
+    flex: $i;
+  }
+}
+
+@for $i from 1 through 20 {
+  .col-#{$i * 5} {
+    width: ($i * 5%);
+  }
+}
+
+// 混合
+@mixin centerBox($alignV: center,$alignH: center,$display: flex){
+  // 默认上下垂直居中
+  display: $display;           // 只支持 flex 或 inline-flex
+  justify-content: $alignV;
+  align-items: $alignH;
+}
+
+// 使用示例
+.demo {
+  color: $blue;                // 调用变量
+  @extend .flex1;              // 继承一个类
+  @include centerBox;          // 调用混合
+}

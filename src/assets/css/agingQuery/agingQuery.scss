@@ -1,0 +1,47 @@
+.agingQuery-wrap{
+  width: 100%;
+  .agingQuery-wrap-account{
+		width: 100%;
+		min-height: 500px;
+		.agingQuery-head{
+			display: flex;
+			justify-content: space-between;
+		}
+		.agingQuery-content{
+			.agingQuery-content-form{
+        padding: 15px 0;
+        .el-form{
+          &>div{
+            flex-wrap: wrap;
+            justify-content: flex-start;
+          }
+          .el-input{
+            max-width: 130px;
+          }
+          .width370{
+            .el-input{
+              width: 250px;
+              max-width: 250px;
+            }
+          }
+        }
+			}
+			.agingQuery-content-table{
+        width: 100%;
+        .el-table{
+          thead{
+            th{
+              background-color: #c5e9d0;
+            }
+          }
+        }
+        .el-table__expanded-cell{
+          padding-top: 0;
+          padding-bottom: 0;
+          padding-right: 0;
+          padding-left: 48px;
+        }
+			}
+		}
+	}
+}

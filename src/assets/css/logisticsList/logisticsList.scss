@@ -1,0 +1,38 @@
+.logisticsicsList-wrap {
+	width: 100%;
+	.logisticsicsList-wrap-account{
+		width: 100%;
+		min-height: 500px;
+		.logisticsicsList-head{
+			display: flex;
+			justify-content: space-between;
+			padding-left: 0 !important;
+			.logisticsicsList-tab{
+				height: 100%;
+				span{
+					padding: 0 15px;
+					line-height: 48px;
+					color: #fff;
+					height: 100%;
+					display: inline-block;
+					cursor: pointer;
+					&.on{
+						background-color: #fff;
+						color: #3eae5e;
+						font-weight: bold;
+						border-top: 1px solid #3eae5e;
+					}
+				}
+			}
+			.add-btn{
+				height: 32px;
+				border-radius: 3px;
+				background: rgba(255, 255, 255, 0.1);
+				border: solid 1px #ffffff;
+			}
+		}
+		.logisticsicsList-content{
+
+		}
+	}
+}

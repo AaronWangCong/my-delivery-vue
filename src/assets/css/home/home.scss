@@ -1,0 +1,14 @@
+.home-wrap {
+  width: 100%;
+  .home-wrap-account{
+    min-height: 800px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+      font-size: 40px;
+      color: #3eae5e;
+    }
+  }
+}
